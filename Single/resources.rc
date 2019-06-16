@@ -1,0 +1,22 @@
+
+// Resource definition statements:
+// https://docs.microsoft.com/en-us/windows/desktop/menurc/resource-definition-statements
+
+// ICON resource
+// https://docs.microsoft.com/en-us/windows/desktop/menurc/icon-resource
+
+// nameID ICON filename
+// * nameID   - Unique name or a 16-bit unsigned integer value identifying the resource.
+// * filename - Name of the file that contains the resource.
+
+// As seen in Ressource Hacker:
+//     The nameID will be shown in the "Icon Group"
+//     The ordinal number of the icon will be automatically assigned following the declaration order.
+
+
+// ### Example ###
+
+01 ICON "icons\\shell32_1.ico"
+02 ICON "icons\\shell32_2.ico"
+
+PROGRAM_GENERIC ICON "icons\\shell32_3.ico"

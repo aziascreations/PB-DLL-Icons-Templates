@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.62 (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="4" name="New Project"/>
+  </section>
+  <section name="data">
+    <explorer view="C:\ProgramData\PureBasic\Examples\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2019-06-16 23:36" user="Herwin" host="THEBONEZONE"/>
+  </section>
+  <section name="files">
+    <file name="Empty.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="846d2474b2e160aa0250395f29ffa240"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="w10_devmgr" enabled="1" default="1">
+      <inputfile value="Empty.pb"/>
+      <outputfile value="icons\Icons.w10_devmgr.dll"/>
+      <executable value="icons\Icons.w10_devmgr.dll"/>
+      <options xpskin="1" debug="1"/>
+      <format exe="dll" cpu="0"/>
+      <resources>
+        <resource value="icons\w10_devmgr.rc"/>
+      </resources>
+    </target>
+    <target name="w98_access" enabled="1" default="0">
+      <inputfile value="Empty.pb"/>
+      <outputfile value="icons\Icons.w98_access.dll"/>
+      <executable value="icons\Icons.w98_access.dll"/>
+      <options xpskin="1" debug="1"/>
+      <format exe="dll" cpu="0"/>
+      <resources>
+        <resource value="icons\w98_access.rc"/>
+      </resources>
+    </target>
+    <target name="w98_shell32" enabled="1" default="0">
+      <inputfile value="Empty.pb"/>
+      <outputfile value="icons\Icons.w98_shell32.dll"/>
+      <executable value="icons\Icons.w98_shell32.dll"/>
+      <options xpskin="1" debug="1"/>
+      <format exe="dll" cpu="0"/>
+      <resources>
+        <resource value="icons\w98_shell32.rc"/>
+      </resources>
+    </target>
+  </section>
+</project>
