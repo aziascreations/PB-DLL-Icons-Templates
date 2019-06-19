@@ -43,4 +43,4 @@ They come from Windows 98 and 10.
 
 ## License
 
-[WTPFL](LICENSE)
+[WTFPL](LICENSE)
